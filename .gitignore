@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Build artifacts / coverage
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Logs / temporary files
+*.log
+*.tmp
+
+# Local data caches
+*.sqlite3
+
