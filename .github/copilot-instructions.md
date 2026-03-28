@@ -36,7 +36,7 @@ jupyter lab
 
 ## Notebook conventions
 
-- **Numbering**: `1XX_quantum_<topic>.ipynb` — the prefix determines lesson order (100 → 104).
+- **Numbering**: `NXX_quantum_<topic>.ipynb` — the prefix determines lesson order (100 → 104, 200 → 202).
 - **Structure per notebook**: title (🔬 emoji + concept name) → "Setup & imports" section → concept explanation with LaTeX math → code demos → validation assertions → takeaways table.
 - **Imports**: each notebook is self-contained. Imports are repeated in every notebook's setup cell rather than shared.
 - **Simulation pattern**: build circuit → get exact `Statevector` probabilities → add measurement gate → `transpile` + `backend.run(shots=N)` → compare exact vs empirical.
@@ -46,11 +46,19 @@ jupyter lab
 
 ## Notebook progression
 
+### 100-series — Quantum Fundamentals
+
 1. **100** — Superposition: Hadamard gate, Bloch sphere visualization
 2. **101** — H-gate deep dive: statevector inspection, measurement histograms, H²=I identity
 3. **102** — Unitary transformations: unitarity verification, norm preservation, Bloch rotations, oracle model, universality
 4. **103** — Deutsch algorithm (work in progress — has `todo` placeholder cells)
 5. **104** — Interference: phase kickback, Bernstein-Vazirani, Grover's search, QPE, Simon's algorithm, EPR pairs, Gottesman-Knill boundary
+
+### 200-series — Quantum Optimization
+
+6. **200** — Hamiltonians & Ising model: energy operators, Pauli algebra, Ising spin systems, problem encoding, variational principle
+7. **201** — QAOA: MaxCut, cost/mixer Hamiltonians, QAOA ansatz, hybrid optimization, energy landscapes, depth scaling
+8. **202** — QUBO: quadratic binary optimization, QUBO↔Ising equivalence, problem encodings, penalty methods, QAOA integration
 
 ## Code style (quantum_alpha.py)
 
