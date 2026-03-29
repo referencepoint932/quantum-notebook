@@ -60,6 +60,10 @@ jupyter lab
 7. **201** — QAOA: MaxCut, cost/mixer Hamiltonians, QAOA ansatz, hybrid optimization, energy landscapes, depth scaling
 8. **202** — QUBO: quadratic binary optimization, QUBO↔Ising equivalence, problem encodings, penalty methods, QAOA integration
 
+### 300-series — Topological Quantum Computing
+
+9. **300** — Majorana qubits: Majorana fermions, Kitaev chain, topological phases, zero modes, non-Abelian braiding, topological protection, winding number
+
 ## Code style (quantum_alpha.py)
 
 - Type hints with `from __future__ import annotations`
