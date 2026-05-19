@@ -15,36 +15,36 @@ No cloud accounts or hardware access required.
 
 ### Quantum Fundamentals (100-series)
 
-| # | Notebook | Topic                                                                                                 |
-|---|----------|-------------------------------------------------------------------------------------------------------|
-| 100 | `100_quantum_superposition.ipynb` | Superposition — Hadamard gate, Bloch sphere visualization                                             |
-| 101 | `101_quantum_H.ipynb` | H-gate deep dive — statevector inspection, measurement histograms, H² = I identity                    |
-| 102 | `102_quantum_unitary.ipynb` | Unitary transformations — unitarity verification, norm preservation, Bloch rotations, oracle model    |
-| 103 | `103_quantum_deutsch.ipynb` | Deutsch algorithm (todo)                                                                              |
-| 104 | `104_quantum_interference.ipynb` | Interference — phase kickback, Bernstein–Vazirani, Grover's search, QPE, Simon's algorithm, EPR pairs |
+| # | Notebook | Topic |
+|---|----------|-------|
+| 100 | [`100_quantum_superposition.ipynb`](algorithms/100_quantum_superposition.ipynb) | Superposition — Hadamard gate, Bloch sphere visualization |
+| 101 | [`101_quantum_H.ipynb`](algorithms/101_quantum_H.ipynb) | H-gate deep dive — statevector inspection, measurement histograms, H² = I identity |
+| 102 | [`102_quantum_unitary.ipynb`](algorithms/102_quantum_unitary.ipynb) | Unitary transformations — unitarity verification, norm preservation, Bloch rotations, oracle model |
+| 103 | [`103_quantum_deutsch.ipynb`](algorithms/103_quantum_deutsch.ipynb) | Deutsch & Deutsch–Jozsa — phase kickback, interference, exponential quantum advantage, universal blueprint |
+| 104 | [`104_quantum_interference.ipynb`](algorithms/104_quantum_interference.ipynb) | Interference — phase kickback, Bernstein–Vazirani, Grover's search, QPE, Simon's algorithm, EPR pairs |
 
 ### Quantum Optimization (200-series)
 
 | # | Notebook | Topic |
 |---|----------|-------|
-| 200 | `200_quantum_hamiltonian.ipynb` | Hamiltonians & Ising model — energy operators, Pauli algebra, Ising spin systems, variational principle |
-| 201 | `201_quantum_qaoa.ipynb` | QAOA — MaxCut, cost/mixer Hamiltonians, QAOA ansatz, hybrid optimization, depth scaling |
-| 202 | `202_quantum_qubo.ipynb` | QUBO — quadratic binary optimization, QUBO↔Ising equivalence, penalty methods, QAOA integration |
+| 200 | [`200_quantum_hamiltonian.ipynb`](algorithms/200_quantum_hamiltonian.ipynb) | Hamiltonians & Ising model — energy operators, Pauli algebra, Ising spin systems, variational principle |
+| 201 | [`201_quantum_qaoa.ipynb`](algorithms/201_quantum_qaoa.ipynb) | QAOA — MaxCut, cost/mixer Hamiltonians, QAOA ansatz, hybrid optimization, depth scaling |
+| 202 | [`202_quantum_qubo.ipynb`](algorithms/202_quantum_qubo.ipynb) | QUBO — quadratic binary optimization, QUBO↔Ising equivalence, penalty methods, QAOA integration |
 
 ### Topological Quantum Computing (300-series)
 
 | # | Notebook | Topic |
 |---|----------|-------|
-| 300 | `300_quantum_majorana.ipynb` | Majorana qubits — Kitaev chain, topological phases, zero modes, non-Abelian braiding, winding number |
+| 300 | [`300_quantum_majorana.ipynb`](algorithms/300_quantum_majorana.ipynb) | Majorana qubits — Kitaev chain, topological phases, zero modes, non-Abelian braiding, winding number |
 
 ### Quantum Simulation & Chemistry (400-series)
 
 | # | Notebook | Topic |
 |---|----------|-------|
-| 400 | `400_quantum_simulation.ipynb` | Quantum simulation — Hamiltonian dynamics, Trotter decomposition, fidelity analysis |
-| 401 | `401_quantum_vqe.ipynb` | VQE — variational quantum eigensolver, ansatz design, optimizer comparison |
-| 402 | `402_quantum_chemistry.ipynb` | Quantum chemistry — molecular Hamiltonians, H₂ & LiH dissociation, active space methods |
-| 403 | `403_quantum_biology.ipynb` | Quantum biology — protein folding, radical pairs, FMO dynamics, DNA search |
+| 400 | [`400_quantum_simulation.ipynb`](algorithms/400_quantum_simulation.ipynb) | Quantum simulation — Hamiltonian dynamics, Trotter decomposition, fidelity analysis |
+| 401 | [`401_quantum_vqe.ipynb`](algorithms/401_quantum_vqe.ipynb) | VQE — variational quantum eigensolver, ansatz design, optimizer comparison |
+| 402 | [`402_quantum_chemistry.ipynb`](algorithms/402_quantum_chemistry.ipynb) | Quantum chemistry — molecular Hamiltonians, H₂ & LiH dissociation, active space methods |
+| 403 | [`403_quantum_biology.ipynb`](algorithms/403_quantum_biology.ipynb) | Quantum biology — protein folding, radical pairs, FMO dynamics, DNA search |
 
 ---
 
